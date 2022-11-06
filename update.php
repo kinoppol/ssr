@@ -39,5 +39,5 @@ if($zip->open($zip_file) != "true")
  exit();
 } 
 
-$zip->extractSubdirTo($extractPath,'ssr-master/');
+$zip->extractSubdirTo($extractPath,'ssr-main/');
 $zip->close();
