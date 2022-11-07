@@ -18,36 +18,20 @@
                             print '<div class="msg" style="color:red;">'.$_SESSION['message'].'</div>';
                             $_SESSION['message']='';
                         }else{
-                            print '<div class="msg">โปรดระบุข้อมูลของคุณเพื่อเข้าลงทะเบียนสมาชิกใหม่</div>';
+                            print '<div class="msg">ข้อมูลส่วนตัว</div>';
                         }
                     ?>
                     <div class="input-group">
                         <span class="input-group-addon">
+                            <i class="material-icons">home</i>
+                        </span>
+                                    <select class="form-control show-tick" name="school">
+                                        <option value="13.." selected>วิทยาลัยอาชีวศึกษาร้อยเอ็ด</option>
+                                    </select>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
                             <i class="material-icons">person</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="text" class="form-control" name="username" placeholder="Username"  minlength="4" onkeypress="return /[a-z,A-Z,0-9_\-.]/i.test(event.key)" pattern="[a-z,A-Z,0-9_\-.]" autocomplete="off" required autofocus>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">lock</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="password" class="form-control" name="password" placeholder="รหัสผ่าน" minlength="8" required>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">lock</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="password" class="form-control" name="confirmPassword" placeholder="ยืนยันรหัสผ่าน" minlength="8" required>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">people</i>
                         </span>
                         <div class="form-line">
                             <input type="text" class="form-control" name="name" placeholder="ชื่อ" minlength="3" required>
@@ -55,10 +39,38 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">
-                            <i class="material-icons">people</i>
+                            <i class="material-icons">person</i>
                         </span>
                         <div class="form-line">
                             <input type="text" class="form-control" name="surname" placeholder="สกุล" minlength="3" required>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="body">
+                <div class="msg">ข้อมูลการลงชื่อเข้าใช้</div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">person_outline</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="username" placeholder="Username"  minlength="4" onkeypress="return /[a-z,A-Z,0-9_\-.]/i.test(event.key)" pattern="[a-z,A-Z,0-9_\-.]" autocomplete="off" required autofocus>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">key</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="password" class="form-control" name="password" placeholder="รหัสผ่าน" minlength="8" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">key</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="password" class="form-control" name="confirmPassword" placeholder="ยืนยันรหัสผ่าน" minlength="8" required>
                         </div>
                     </div>
                     <div class="input-group">

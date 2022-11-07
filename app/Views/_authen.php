@@ -22,6 +22,9 @@
 
     <!-- Bootstrap Core Css -->
     <link href="<?php print site_url();?>template/adminbsb/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Bootstrap Select Css -->
+    <link href="<?php print site_url();?>template/adminbsb/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
     <link href="<?php print site_url();?>template/adminbsb/plugins/node-waves/waves.css" rel="stylesheet" />
@@ -41,6 +44,9 @@
 
     <!-- Bootstrap Core Js -->
     <script src="<?php print site_url();?>template/adminbsb/plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Bootstrap Select Js -->
+    <script src="<?php print site_url();?>template/adminbsb/plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
     <!-- Waves Effect Plugin Js -->
     <script src="<?php print site_url();?>template/adminbsb/plugins/node-waves/waves.js"></script>

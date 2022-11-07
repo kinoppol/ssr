@@ -54,7 +54,7 @@ class User extends BaseController
 		);
 		$data=array(
             //'content'=>view('login',$data)
-			'content'=>view('registerNewUser',$data)
+			'content'=>view('user/registerNewUser',$data)
         );
         return view('_authen',$data);
 	}

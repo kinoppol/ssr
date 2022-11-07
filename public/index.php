@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-define('SYSTEMNAME','ระบบฐานข้อมูลสำนักความร่วมมือ');
+define('SYSTEMNAME','ระบบบันทึกคะแนนการเรียนการสอนหลักสูตรวิชาชีพระยะสั้น');
 define('VERSION','21.05.10');
 ini_set('memory_limit', '512M');
 $_SESSION['FOOTSCRIPT']='';

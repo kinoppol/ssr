@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="../favicon.ico" type="image/png">
-        <title>OCS:ระบบฐานข้อมูลสำนักความร่วมมือ</title>
+        <title>SSR : ระบบบันทึกคะแนนการเรียนการสอนหลักสูตรวิชาชีพระยะสั้น</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
